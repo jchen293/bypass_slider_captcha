@@ -1,11 +1,13 @@
 import requests
+import time
+import selenium.support.ui.WebDriverWait;
+
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from webdriver_manager.chrome import ChromeDriverManager
-import time
-import selenium.support.ui.WebDriverWait;
+
 class webScraper:
 
     TRACKING_URL = 'Your_tracking_URL_here'
